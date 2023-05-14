@@ -20,22 +20,28 @@ p {
 /****ID SECTION****/
 #hero {
     overflow-x: hidden;
+    margin: 0px;
 }
 
 #features {
     background-color: hsl(240, 17%, 98%);
     overflow-x: hidden;
+    margin: 0px;
 }
 
 #CTR {
     background-color: hsl(238, 22%, 44%);
     padding:154px;
+    overflow-x: hidden;
+    margin: 0px;
 }
 
 footer {
     background-color: hsl(243, 87%, 12%);
     padding: 110px 154px 150px 154px;
     color: #fff;
+    overflow-x: hidden;
+    margin: 0px;
 }
 
 /****CLASS SECTION****/
