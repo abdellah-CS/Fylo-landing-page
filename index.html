@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <!--FAVICON LINK-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!--TITLE-->
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+   <!--FONT AWESOME LINK-->
+  <script src="https://kit.fontawesome.com/71b5993cd2.js" crossorigin="anonymous"></script>
+
+  <!--GOOGLE FONT LINK-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--BOOTSTRAP LINK-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+  <!--CSS LINK-->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo image"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="row">
+      <div class="f col-lg-6">
+        <div class="first">
+          <h1>  All your files in one secure location, accessible anywhere.</h1>
+          <p>Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+          <form action="">
+          <input type="email" placeholder="Enter your email...">
+          <button type="submit" class="btn">Get Started</button>
+        </form>
+        </div>
+      </div>
+      <div class="s col-lg-6">
+        <div class="second">
+          <img src="images/illustration-1.svg" alt="image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="curve"></div>
+  <section id="features">
+    <div class="row">
+      <div class="f col-lg-6">
+        <div class="first">
+          <h1>Stay productive, wherever you are</h1>
+          <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+          <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+          <div class="butn">
+            <button href="#">See how Fylo works <span><img src="images/icon-arrow.svg" alt=""></span></button>
+          </div>
+          <div class="box">
+            <img src="images/icon-quotes.svg" alt="icon-quotes">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="avatar">
+              <img src="images/avatar-testimonial.jpg" alt="avatar">
+              <span>
+                <p class="f">Kyle Burton</p>
+                <p class="s">Founder & CEO, Huddle</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="s col-lg-6">
+        <div class="second">
+          <img src="images/illustration-2.svg" alt="image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="CTR">
+    <div class="row">
+      <div class="f col-lg-6">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <div class="s col-lg-6">
+        <form action="mailto:aidaoui.abdellah.05@gmail.com">
+          <input type="email" placeholder="Enter your email...">
+          <button type="submit" class="btn">Get Started For Free</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row">
+      <div class="ff col-lg-3 col-md-6">
+        <img class="logo" src="images/logo.svg" alt="logo image">
+        <div class="f">
+          <img src="images/icon-phone.svg" alt="">
+          <span> Phone: +1-543-123-4567</span>
+        </div>
+        <div>
+          <img src="images/icon-email.svg" alt="">
+          <span> example@fylo.com</span>
+        </div>
+      </div>
+      <div class="s col-lg-3 col-md-6">
+          <a href="#">About Us</a>
+          <br>
+          <a href="#">Jobs</a>
+          <br>
+          <a href="#">Press</a>
+          <br>
+          <a href="#">Blog</a>
+      </div>
+      <div class="t col-lg-3 col-md-6">
+        <a href="#">Contact Us</a>
+        <br>
+        <a href="#">Terms</a>
+        <br>
+        <a href="#">Privacy</a>
+      </div>
+      <div class="l col-lg-3 col-md-6">
+        <div class="social-media">
+          <button href="https://www.facebook.com/ClipboardEMS/"><i class="fa-brands fa-facebook-f fa-xl"></i></button>
+          <button href="https://twitter.com/clipboard?lang=fr"><i class="fa-brands fa-twitter fa-xl"></i></button>
+          <button href="https://www.instagram.com/explore/tags/clipboard/"><i class="fa-brands fa-instagram fa-xl"></i></button>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

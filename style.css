@@ -1,0 +1,627 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.6;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.5;
+}
+
+/****ID SECTION****/
+#hero {
+    overflow-x: hidden;
+}
+
+#features {
+    background-color: hsl(240, 17%, 98%);
+    overflow-x: hidden;
+}
+
+#CTR {
+    background-color: hsl(238, 22%, 44%);
+    padding:154px;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 110px 154px 150px 154px;
+    color: #fff;
+}
+
+/****CLASS SECTION****/
+/***NAVBAR***/
+.navbar {
+    padding: 60px 80px;
+    overflow-x: hidden;
+}
+
+nav .nav-item {
+    margin-left: 70px;
+}
+
+/***HERO***/
+#hero h1 {
+    width: 669px;
+}
+
+#hero p {
+    width: 586px;
+}
+
+#hero img {
+    width: 92%;
+}
+
+#hero .first {
+    width: fit-content;
+    margin: 170px 154px;
+}
+
+#hero .second {
+    width: fit-content;
+    margin: 37px auto;
+}
+
+#hero input {
+    border-radius: 6px;
+    border: #000 solid 1px;
+    width: 333px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/***FEATURES***/
+#features h1 {
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+#features p {
+    width: 602px;
+}
+
+.curve {
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    height: 114px;
+    background-size: cover;
+    background-position: center;
+}
+
+#features .first {
+    width: fit-content;
+    margin: 120px 154px;
+}
+
+#features .second {
+    width: fit-content;
+    margin-top: 133px;
+    margin-bottom: 133px;
+    margin-right: 145px;
+}
+
+#features .second img {
+    width: 92%;
+}
+
+#features .box {
+    width: 389px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px #57575748;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 22px;
+}
+
+#features .box p {
+    width: fit-content;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#features .box img {
+    width: 22px;
+}
+
+#features .avatar {
+    height: 71px;
+}
+
+#features .avatar img {
+    width: 45px;
+    border-radius: 100%;
+}
+
+#features .avatar .f {
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+#features .avatar span {
+    position: relative;
+    left: 55px;
+    bottom: 60px;
+}
+
+#features .avatar .s {
+    margin-top: 0px;
+}
+
+#features button {
+    background-color: hsl(240, 17%, 98%);
+    border: 0px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%); 
+}
+
+#features button:hover {
+    border-bottom-color: hsl(170, 69%, 57%);
+    color: hsl(170, 69%, 57%);
+    font-weight: 600;
+    border-bottom-width: 2px;
+}
+
+/***CTR SECTION***/
+#CTR h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.7;
+}
+
+#CTR p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    width: 556px;
+}
+
+#CTR input {
+    width: 495px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px  solid #000;
+    margin-bottom: 14px;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+#CTR button {
+    margin-left: 0px;
+    padding: 12px 35px;
+}
+  
+/***FOOTER SECTION***/
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 110px 154px 150px 154px;
+    color: #fff;
+}
+
+footer .logo {
+    filter: brightness(0) invert(1);
+}
+
+footer .f {
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+
+footer .s {
+    position: relative;
+    top: 78px;
+}
+
+footer .t {
+    position: relative;
+    top: 78px;
+}
+
+footer .l {
+    position: relative;
+    top: 78px;
+}
+
+
+footer a {
+    color: #fff;
+    line-height: 2.3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+footer .social-media button {
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    border: 1px white solid;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 18px;
+}
+
+footer .social-media button:hover {
+    border-color: hsl(224, 93%, 58%);
+    color: hsl(224, 93%, 58%);
+}
+
+/***BUTTONS SECTION***/
+.btn {
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 17px;
+    background: hsl(224, 93%, 58%);
+    padding: 12px 60px;
+    text-decoration: none;
+    margin-bottom: 3px;
+    margin-left: 22px;
+}
+
+.btn:hover {
+   background-color: hsl(219, 115%, 80%);
+   text-decoration: none;
+   color: #ffffff;
+}
+  
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 1735px)
+{
+    #hero .first {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #hero .second {
+        margin-top: 100px;
+    }
+
+    #features .first {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #CTR {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    footer {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+  
+@media only screen and (max-width: 1512px)
+{
+    #hero h1 {
+        width: 553px;
+    }
+
+
+    #features h1 {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1295px)
+{
+    #hero .col-lg-6 {
+        width: 100%;
+    }
+
+    #features .col-lg-6 {
+        width: 100%;
+    }
+
+    #hero .f {
+        order: 2;
+    }
+
+    #features {
+        padding-top: 50px;
+    }
+
+    #features .f {
+        order: 2;
+    }
+
+    #hero .s {
+        order: 1;
+    }
+
+    #features .s {
+        order: 1;
+    }
+
+    #hero .first {
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    #hero .second {
+        width: 738px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #features h1 {
+        text-align: center;
+    }
+
+    #features .butn {
+        text-align: center;
+    }
+
+    #features .box {
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    #features .first {
+        margin: 100px auto;
+    }
+
+    #features .second {
+        width: 738px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero form {
+        width: 553px;
+    }
+
+    #hero input {
+        width: 100%;
+    }
+
+    #hero button {
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    #CTR {
+        text-align: center;
+    }
+
+    #CTR .f {
+        width: 100%;
+    }
+
+    #CTR .s {
+        width: 100%;
+    }
+
+    #CTR p {
+        margin: auto;
+    }
+
+    #CTR button {
+        width: 575px;
+    }
+
+    #CTR input {
+        margin-top: 40px;
+        width: 575px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1295px)
+{
+    footer .social-media  button {
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    footer .ff {
+        order: 1;
+    }
+
+    footer .s {
+        order: 3;
+    }
+
+    footer .t {
+        order: 4;
+    }
+
+    footer .l {
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 769px)
+{
+    footer .ff {
+        order: 1;
+    }
+
+    footer .s {
+        order: 2;
+    }
+
+    footer .t {
+        order: 3;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    footer .l {
+        order: 4;
+    }
+
+    footer .social-media {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    footer {
+        padding: 90px 60px;
+    }
+}
+
+@media only screen and (max-width: 741px)
+{
+    #hero .second {
+        width: 90%;
+    }
+
+    #features .second {
+        width: 90%;
+    }
+
+    #hero h1 {
+        width: 76%;
+        margin: auto;
+    }
+
+    #hero p {
+        width: 70%;
+        margin:30px auto;
+    }
+
+    #hero form {
+        width: 70%;
+        margin: auto;
+    }
+
+    #features h1 {
+        width: 76%;
+        margin: auto;
+    }
+
+    #features p {
+        width: 70%;
+        margin:30px auto;
+    }
+
+    #features .avatar p {
+        margin-right: 0;
+        margin-left: 0;
+    } 
+
+    #features .box {
+        width: 80%;
+    }
+
+    #CTR {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #CTR h1 {
+        width: 76%;
+        margin: auto;
+    }
+
+    #CTR p {
+        width: 70%;
+        margin:30px auto;
+    }
+
+    #CTR input {
+        width: 100%;
+    }
+
+    #CTR button {
+        width: 100%;
+    }
+
+    #CTR form {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 635px)
+{
+    .navbar {
+        padding: 50px 35px;
+    }
+
+    footer {
+        padding: 90px 60px;
+    }
+
+    .curve {
+        background-image: url(images/bg-curve-mobile.svg);
+    }
+}
+
+@media only screen and (max-width: 444px)
+{
+    .navbar {
+        padding: 35px 15px;
+    }
+
+    nav img {
+        width: 80%;
+    }
+
+    #hero h1 {
+        width: 88%;
+    }
+
+    #hero p  {
+        width: 90%;
+    }
+
+    #features h1 {
+        width: 88%;
+    }
+
+    #features p {
+        width: 84%;
+    }
+
+    #CTR p {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 349px)
+{
+    #hero h1 {
+        width: 93%;
+    }
+
+    #hero form {
+        width: 81%;
+    }
+
+    #features .avatar .s {
+        width: 128px;
+    }
+
+    #CTR form {
+        width: 80%;
+    }
+
+    footer {
+        padding: 90px 30px;
+    }
+}
