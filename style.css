@@ -20,20 +20,20 @@ p {
 /****ID SECTION****/
 #hero {
     overflow-x: hidden;
-    margin: 0px;
+    margin: 0;
 }
 
 #features {
     background-color: hsl(240, 17%, 98%);
     overflow-x: hidden;
-    margin: 0px;
+    margin: 0;
 }
 
 #CTR {
     background-color: hsl(238, 22%, 44%);
     padding:154px;
     overflow-x: hidden;
-    margin: 0px;
+    margin: 0;
 }
 
 footer {
@@ -41,7 +41,7 @@ footer {
     padding: 110px 154px 150px 154px;
     color: #fff;
     overflow-x: hidden;
-    margin: 0px;
+    margin: 0;
 }
 
 /****CLASS SECTION****/
@@ -251,7 +251,7 @@ footer a:hover {
     color: hsl(224, 93%, 58%);
 }
 
-footer .social-media button {
+footer .social-media a {
     background-color: hsl(243, 87%, 12%);
     color: #fff;
     border: 1px white solid;
@@ -261,7 +261,7 @@ footer .social-media button {
     margin-right: 18px;
 }
 
-footer .social-media button:hover {
+footer .social-media a:hover {
     border-color: hsl(224, 93%, 58%);
     color: hsl(224, 93%, 58%);
 }
